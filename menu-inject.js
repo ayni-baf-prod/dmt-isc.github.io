@@ -14,14 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <div class="moneo-navigation">
             <a href="index.html" class="home ${currentPage === 'index.html' || currentPage === '' ? 'active' : ''}">Home</a>
-            <a href="dwh_twpro.html" class="finance ${currentPage === 'dwh_twpro.html' ? 'active' : ''}">Finance</a>
-            <a href="# class="actuarial ${currentPage === 'dwh_request.html' ? 'active' : ''}">Actuarial</a>
-            <a href="#" class="distribution ${currentPage === 'dwh_drivers.html' ? 'active' : ''}">Distribution</a>
-            <a href="#" class="legal ${currentPage === 'dwh_data.html' ? 'active' : ''}">Legal</a>
-            <a href="#" class="risk ${currentPage === 'dwh_clients.html' ? 'active' : ''}">Risk</a>
-            <a href="#" class="talent ${currentPage === 'dwh_infra_costs.html' ? 'active' : ''}">Talent</a>
-            <a href="#" class="operations ${currentPage === 'dwh_infra_performance.html' ? 'active' : ''}">Operations</a>
-            <a href="#" class="ceo ${currentPage === 'dwh_infra_capacity.html' ? 'active' : ''}">CEO</a>
+            <a href="dwh_twpro.html" class="finance ${currentPage === 'dwh_twpro.html' ? 'active' : ''}">Tw-Pro</a>
+            <a href="# class="actuarial ${currentPage === 'dwh_request.html' ? 'active' : ''}">Request</a>
+            <a href="#" class="distribution ${currentPage === 'dwh_drivers.html' ? 'active' : ''}">Drivers</a>
+            <a href="#" class="legal ${currentPage === 'dwh_data.html' ? 'active' : ''}">Data</a>
+            <a href="#" class="risk ${currentPage === 'dwh_clients.html' ? 'active' : ''}">Clients</a>
+            <a href="#" class="talent ${currentPage === 'dwh_infra_costs.html' ? 'active' : ''}">Infra-Costs</a>
+            <a href="#" class="operations ${currentPage === 'dwh_infra_performance.html' ? 'active' : ''}">Infra-Performance</a>
+            <a href="#" class="ceo ${currentPage === 'dwh_infra_capacity.html' ? 'active' : ''}">Infra-Capacity</a>
         </div>
     `;
     
